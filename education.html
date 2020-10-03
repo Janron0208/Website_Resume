@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="cssprofile3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="jq.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+    <script>
+    $(function() {
+        $('#b1').click(function(){
+        $("#education").attr('src',"Images/edu1.jpg");
+        $("#head").html('โรงเรียนวัดนิมมานรดี');
+        $("#history").html('อนุบาล1 - ประถมศีกษาปีที่6');             
+    });
+        $('#b2').click(function(){
+        $("#education").attr('src',"Images/edu2.png");
+        $("#head").html('โรงเรียนมัธยมวัดสิงห์');   
+        $("#history").html('มัธยมศีกษาปีที่1 - มัธยมศีกษาปีที่6' + '<br>' + '(มัธยมศีกษาปีที่4-6 English-France)');              
+    });
+        $('#b3').click(function(){
+        $("#education").attr('src',"Images/edu3.png");
+        $("#head").html('มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา');   
+        $("#history").html('กำลังศีกษาอยู่ชั้นปีที่ 4' + '<br>' + '(สาขาวิทยาการคอมพิวเตอร์)');               
+    });
+    
+});
+    </script>
+
+
+
+
+
+<body id="bg" class="animate__animated animate__bounceInDown">
+    
+
+    <br><br>
+    <table border="0">
+        <tr align="center">
+            <td><button id="b1">ประถมศึกษา</button></td>
+            <td><button id="b2">มัธยมศึกษา</button></td>
+            <td><button id="b3">มหาวิทยาลัย</button></td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="0" id="table">
+    
+        <tr align="center">
+            <td colspan="2" id="head"></td>
+        </tr>
+        <tr>
+            <td>
+                <img id="education" src="Images/edu.jpg">
+            </td>
+        <tr>
+            <td id="history"></td>
+        </tr>
+    </table>
+    <br>
+
+     
+
+
+
+   
+    
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill</title>
+    <link rel="stylesheet" href="cssprofile2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="jq.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+    <script>
+        $(function() {
+            $('#b1').click(function(){
+            $("#favor1").attr('src',"Images/photoshop.jpg");
+            $("#favor2").html('สามารถใช้งาน Photoshop ได้ในระดับพอได้');       
+        });
+            $('#b2').click(function(){
+            $("#favor1").attr('src',"Images/sonyvegas.jpeg");
+            $("#favor2").html('สามารถใช้งาน Sony Vegas ได้ในระดับปานกลาง');
+        });
+            $('#b3').click(function(){
+            $("#favor1").attr('src',"Images/office.jpg");
+            $("#favor2").html('ใช้งาน Microsoft Office ได้ เช่นการพิมพ์เอกสาร,การคำนวณโปรแกรม Excel และอื่นๆ');
+        });
+            $('#b4').click(function(){
+            $("#favor1").attr('src',"Images/html.png");
+            $("#favor2").html('สามารถเขียนภาษา Html ได้ในระดับปานกลาง');
+        });
+            $('#b5').click(function(){
+            $("#favor1").attr('src',"Images/css.png");
+            $("#favor2").html('สามารถเขียนภาษา CSS ได้ในระดับปานกลาง');
+        });
+        
+    });
+    </script>
+
+ 
+</head>
+<body id="bg" class="animate__animated animate__bounceInDown" >
+
+    
+    <table>
+        <tr>
+            <td id="t11"></td>
+            <td id="t2">&nbsp;ความสามารถ</td>
+            <td id="t11"></td>
+        </tr>
+    </table> 
+    <table id="tab" border="0" class="animate__animated animate__fadeIn animate__delay-1s">
+        <tr align="center">
+            <td id="t3"><a href="#" id="b1" >photoshop</a></td>
+            <td id="t3"><a href="#" id="b2" >Sony Vegas</a></td>
+            <td id="t3"><a href="#" id="b3" >Microsoft Office</a></td>
+            <td id="t3"><a href="#" id="b4" >HTML</a></td>
+            <td id="t3"><a href="#" id="b5" >CSS</a></td>
+        </tr>
+    </table>
+    <br><br>
+    <table  id="tableimg" class="animate__animated animate__fadeIn animate__delay-1s">
+        <tr>
+            <td id="tfavor1">
+                <img  id="favor1" src="Images/choose.jpg" >
+            </td>
+            <td id="favor2"></td>
+        </tr>
+    </table>
+
+ 
+</body>
+</html>

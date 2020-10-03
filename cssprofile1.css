@@ -1,0 +1,45 @@
+    body {
+        font-family: 'Sriracha', cursive;
+    }
+    #protable {
+        background-color: white;
+        margin: auto;
+        margin-top: 5%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    #film1 {
+        width: 600px ;
+        height: 600px;
+        border-radius: 10px;
+        margin: 10mm;
+    }
+    #film2 {
+        width: 700px;
+        padding-left: 10mm;
+    }
+    #filmname1 {
+        padding-left: 12mm;
+        font-weight: bold;
+        font-size: 40px;
+        letter-spacing: 6px;
+        color: rgb(180, 80, 238);
+    }
+    #filmname2 {
+        padding-left: 12mm;
+        font-size: 27px;
+        color: rgb(203, 113, 255);
+        letter-spacing: 2px;
+    }
+    #filmname3 {
+        padding-left: 12mm;
+        font-size: 20px;
+        color: rgb(219, 158, 255);
+    }
+    .bg {
+        background-image: url("Images/bg2.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+

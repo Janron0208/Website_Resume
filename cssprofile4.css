@@ -1,0 +1,35 @@
+body {
+    font-family: 'Sriracha', cursive;
+}
+.bg {
+    background-image: url("Images/bg2.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #protable {
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px grey;
+    width: 1400px;
+}
+#goal {
+    border-radius: 10px;
+    margin: 10mm;
+}
+#goal1 {
+    padding-left: 12mm;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 6px;
+    color: rgb(180, 80, 238);
+}
+#goal2 {
+    padding-left: 1%;
+    font-size: 27px;
+    color: rgb(203, 113, 255);
+    padding-right: 2%;
+    text-indent: 1.5em;
+}

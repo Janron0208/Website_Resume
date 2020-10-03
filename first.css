@@ -1,0 +1,28 @@
+#bg {
+    background-color: rgb(220, 183, 255);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: cycle 6s linear infinite;
+  }
+body {
+    font-family: 'Sriracha', cursive;
+}
+div {
+    position: absolute;
+    top: 30%;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    font-size: 100px;
+    line-height: 3mm;
+    text-shadow: 2px 4px 4px rgb(207, 124, 255);
+    color: rgb(255, 255, 255);
+}
+@keyframes cycle {
+    0% {background-color: rgb(220, 183, 255);}
+    20% {background-color: rgb(243, 183, 255);}
+    40% {background-color: rgb(255, 183, 233);}
+    60% {background-color: rgb(243, 183, 255);}
+    80% {background-color: rgb(220, 183, 255);}
+}
